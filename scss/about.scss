@@ -1,0 +1,31 @@
+.about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+h1{
+    font-family: manrope;
+    font-size: 100px;
+    margin-top: 20px;
+}
+}
+
+.aboutcont{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+.aboutimg{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/city.jpg);
+    background-repeat: no-repeat;
+}
+
+.abouttext{
+    width: 1000px;
+    font-size: 16px;
+    font-family: manrope;
+}
+}

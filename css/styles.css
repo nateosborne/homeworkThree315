@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: manrope;
+  src: url(fonts/Manrope-Regular.ttf);
+}
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: manrope;
+}
+
+.hero {
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.hero h1 {
+  color: white;
+  font-family: manrope;
+  font-size: 100px;
+  margin-top: 150px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.about h1 {
+  font-family: manrope;
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.aboutcont {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.aboutcont .aboutimg {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/city.jpg);
+  background-repeat: no-repeat;
+}
+.aboutcont .abouttext {
+  width: 1000px;
+  font-size: 16px;
+  font-family: manrope;
+}
+
+.prod {
+  display: flex;
+  justify-content: center;
+}
+.prod h1 {
+  font-size: 100px;
+  font-family: manrope;
+  margin-top: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+.products .prodcont {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.products .prodcont .prodimg1 {
+  width: 270px;
+  height: 400px;
+  background-image: url(../images/vacation1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.products .prodcont .prodimg2 {
+  width: 270px;
+  height: 400px;
+  background-image: url(../images/vacation2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.products .prodcont .prodimg3 {
+  width: 270px;
+  height: 400px;
+  background-image: url(../images/vacation3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.cont h1 {
+  font-size: 100px;
+  font-family: manrope;
+  margin-top: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.contact .contactimg {
+  height: 300px;
+  width: 1000px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/3822653_072518-cc-ss-beach-water-img.jpg);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contact .contactimg .contacttext {
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: manrope;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+}
+.blog h1 {
+  font-size: 100px;
+  font-family: manrope;
+  margin-top: 20px;
+}
+
+.blogcont {
+  display: flex;
+  justify-content: center;
+}
+.blogcont .blogtext {
+  width: 1000px;
+  font-family: manrope;
+}
+
+/*# sourceMappingURL=styles.css.map */

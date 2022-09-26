@@ -1,0 +1,17 @@
+.hero{
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+    h1{
+        color: white;
+        font-family: manrope;
+        font-size: 100px;
+        margin-top: 150px;
+    }
+}

@@ -1,0 +1,35 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+h1{
+    font-size: 100px;
+    font-family: manrope;
+    margin-top: 20px;
+}
+}
+
+.contact{
+display: flex;
+justify-content: center;
+padding-bottom: 70px;
+
+    .contactimg{
+    height: 300px;
+    width: 1000px;
+    background-image: linear-gradient(
+        rgba(white, 0.4),
+        rgba(white, 0.4)
+      ), url(../images/3822653_072518-cc-ss-beach-water-img.jpg);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      .contacttext{
+        margin-top: 30px;
+        font-size: 50px;
+        font-family: manrope;
+      }
+}
+}
